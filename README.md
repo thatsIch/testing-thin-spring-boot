@@ -4,7 +4,7 @@ With Docker it is advised to layer your application from the least to the most f
 The best setup currently supported is the War packaging which excludes the servlet container saving about 3 MB.
 The [project by dyser](https://github.com/dsyer/spring-boot-thin-launcher) allows the creation of a thin Spring Boot application by replacing all the dependencies by a custom wrapper which resolves the dependencies though Maven upon runtime.
 
-This project test the plugin with a simple setup to showcase it is working.
+This project tests the plugin with a simple setup to showcase it is working.
 
 ## Getting Started
 
